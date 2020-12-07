@@ -1,0 +1,2582 @@
+@font-face {
+  font-family: Neue Haas Unica Pro;
+  src: url(Fuentes/NeueHaasUnicaPro.ttf);
+}
+
+.iconnotification {
+  position: absolute;
+  left: 77.42%;
+  right: 21.33%;
+  top: 37.1%;
+  bottom: 37.1%;
+}
+
+.iconBandera {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  left: 1029px;
+  top: 17px;
+}
+
+.listLenguage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  left: 83.4%;
+  right: 11.37%;
+  top: 11.29%;
+  bottom: 11.29%;
+}
+
+.tabheader {
+  /* Frame 710 */
+  position: absolute;
+  width: 1280px;
+  height: 62px;
+  left: 0px;
+  top: 55px;
+  /* AM Brand Blue */
+  background: #0b2343;
+}
+
+.textExceptionPolicies {
+  /* Exception Policies */
+
+  position: absolute;
+  width: 161px;
+  height: 30px;
+  left: 79px;
+  top: 686px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* AM Med Gray */
+  color: #999999;
+}
+
+.PrimaryButton {
+  position: absolute;
+  width: 258px;
+  height: 60px;
+  left: 140px;
+  top: 472px;
+  background: #007cc2;
+  border-radius: 35px;
+
+  color: #ffffff;
+}
+.textBlueRecIzquierdo {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 232px;
+  height: 20px;
+  left: 134px;
+  top: 738px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textBlueSmall {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 232px;
+  height: 60px;
+  left: 134px;
+  top: 764px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.iconEscudo {
+  /* Group */
+  position: absolute;
+  width: 32px;
+  height: 37px;
+  left: 80px;
+  top: 743.59px;
+}
+
+.iconCorazon {
+    position: absolute;
+    width: 37.22px;
+    height: 26.95px;
+    left: 80px;
+    top: 1304px;
+}
+
+.iconMaleta {
+    position: absolute;
+    width: 37.22px;
+    height: 26.95px;
+    left: 80px;
+    top: 1541.0px;
+}
+
+.rectanglegreen {
+  position: absolute;
+  width: 131px;
+  height: 121px;
+  left: 80px;
+  top: 882px;
+
+  /* AM White */
+
+  background: #ffffff;
+  border: 1px solid #48a83e;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.rectanblue {
+  position: absolute;
+  width: 131px;
+  height: 121px;
+  left: 237px;
+  top: 882px;
+
+  /* AM White */
+
+  background: #ffffff;
+  /* AM Light Blue */
+
+  border: 1px solid #007cc2;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.textRecGreenActivo {
+  /* Designing Delta Episode 3: The Reveal 3 minutes ago */
+
+  position: absolute;
+  width: 53px;
+  height: 18px;
+  left: 121px;
+  top: 950px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textWatheverEventsgreen {
+  /* Designing Delta Episode 3: The Reveal 3 minutes ago */
+
+  position: absolute;
+  width: 84px;
+  height: 12px;
+  left: 106px;
+  top: 972px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  /* AM Med Gray */
+  color: #999999;
+}
+
+.textEmitidosBlue {
+  /* Designing Delta Episode 3: The Reveal 3 minutes ago */
+
+  position: absolute;
+  width: 73px;
+  height: 18px;
+  left: 271px;
+  top: 950px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.iconRed2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 80px;
+    top: 1043px;
+}
+
+.iconRed3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 80px;
+    top: 1095px;    
+}
+
+.texttyphoon {
+  /* Typhoon Haishen - Bulletin 1 */
+
+  position: absolute;
+  width: 179px;
+  height: 18px;
+  left: 115px;
+  top: 1044px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  display: flex;
+  align-items: center;
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textCoronavirus {
+  /* Coronavirus Situation - All... */
+
+  position: absolute;
+  width: 218px;
+  height: 18px;
+  left: 115px;
+  top: 1096px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  display: flex;
+  align-items: center;
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textvermasRec {
+  /* Ver más */
+
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 319px;
+  top: 1044px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.textvermasRec2 {
+  /* Ver más */
+
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 317px;
+  top: 1096px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+
+  color: #007cc2;
+}
+
+.textLomasBuscado {
+  /* LO MÁS BUSCADO */
+
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 79px;
+  top: 1248px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  /* AM Med Gray */
+  color: #999999;
+}
+
+.textMedidadCovid {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 227px;
+  height: 22px;
+  left: 144px;
+  top: 1304px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  display: flex;
+  align-items: center;
+
+  color: #142343;
+}
+
+.textMedidasCovidExtend {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 214px;
+  height: 80px;
+  left: 144px;
+  top: 1337px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textVerPreguntasFrecuentes {
+  /* Ver preguntas frecuentes */
+
+  position: absolute;
+  width: 158px;
+  height: 30px;
+  left: 144px;
+  top: 1425px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.textAboutAeromexico {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 227px;
+  height: 22px;
+  left: 143px;
+  top: 1541px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  display: flex;
+  align-items: center;
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textAboutAeromexicoExtence {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 217px;
+  height: 80px;
+  left: 143px;
+  top: 1574px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.textVerPreguntasFrecuentesAeromexico {
+  /* Ver preguntas frecuentes */
+
+  position: absolute;
+  width: 158px;
+  height: 30px;
+  left: 143px;
+  top: 1665px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.iconPDF1 {
+  position: absolute;
+  left: 8.59%;
+  right: 88.38%;
+  top: 28.6%;
+  bottom: 19.76%;
+}
+
+.iconPDF2 {
+  position: absolute;
+  left: 8.59%;
+  right: 58.38%;
+  top: 28.6%;
+  bottom: 19.76%;
+}
+
+.iconPDF3 {
+  position: absolute;
+  left: 8.59%;
+  right: 28.3%;
+  top: 28.6%;
+  bottom: 19.76%;
+}
+
+
+
+.textAllViewExceptionPolicies {
+  /* View all exception policies */
+
+  position: absolute;
+  width: 165px;
+  height: 30px;
+  left: 80px;
+  top: 1148px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.textWatheverEventsBlue {
+  /* Designing Delta Episode 3: The Reveal 3 minutes ago */
+
+  position: absolute;
+  width: 84px;
+  height: 12px;
+  left: 266px;
+  top: 972px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  /* AM Med Gray */
+  color: #999999;
+}
+
+.iconGreenrectangle {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 125px;
+  top: 900px;
+}
+
+.textGreenrectangle {
+  position: absolute;
+  width: 27.06px;
+  height: 24.35px;
+  left: 135px;
+  top: 909.47px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 100% */
+
+  display: flex;
+  align-items: center;
+
+  /* AM Green */
+
+  color: #48a83e;
+}
+
+.iconBluerectangle {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  left: 285px;
+  top: 900px;
+}
+
+.textBluerectangle {
+  /* 3 */
+
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  left: 301px;
+  top: 909px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.logo {
+  position: absolute;
+  left: 1.02%;
+  right: 96.7%;
+  top: 32.26%;
+  bottom: 37.46%;
+}
+
+.tabcontent {
+  /* People & Culture Products & Services Operations */
+  position: absolute;
+  width: 345px;
+  height: 24px;
+  left: 190px;
+  top: 18px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+
+  /* AM White */
+
+  color: #ffffff;
+}
+
+.iconSearch {
+  position: absolute;
+  left: 55.7%;
+  right: 43.37%;
+  top: 40.32%;
+  bottom: 40.62%;
+}
+/* SearchButton */
+.ButtonSearch {
+  position: absolute;
+  width: 248px;
+  height: 35px;
+  left: 700px;
+  top: 13px;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.textSearchButton {
+  position: absolute;
+  width: 138px;
+  height: 12px;
+  left: 733px;
+  top: 24px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+
+  display: flex;
+  align-items: center;
+
+  /* AM White */
+
+  color: #ffffff;
+}
+
+/* LoginButton */
+.Login {
+  /* LoginButton */
+
+  /* Auto Layout */
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 15px;
+
+  position: absolute;
+  width: 104px;
+  height: 30px;
+  left: 1155px;
+  top: 15px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 29px;
+}
+.featurednews {
+  /* Featured News */
+
+  position: absolute;
+  width: 223px;
+  height: 20px;
+  left: 464px;
+  top: 684px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 20px;
+  /* identical to box height, or 62% */
+
+  display: flex;
+  align-items: center;
+
+  /* AM Brand Blue */
+
+  color: #0b2343;
+}
+
+.bibliotecapoliticas {
+  /* Featured News */
+
+  position: absolute;
+  width: 323px;
+  height: 32px;
+  left: 80px;
+  top: 1874px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.imgPortada {
+  position: absolute;
+  width: 1122px;
+  height: 415px;
+  left: 80px;
+  top: 200px;
+
+  background: url(aeromexico cama 4.jpg);
+  border-radius: 3px;
+}
+.titleblueportada {
+  /* Need Help? */
+
+  position: absolute;
+  width: 218px;
+  height: 20px;
+  left: 140px;
+  top: 283px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.34px;
+
+  /* Dark background Blue */
+  color: #71c3f1;
+}
+
+.rectimaggrad {
+  /* Rectangle 4455 */
+
+  position: absolute;
+  width: 1015px;
+  height: 415px;
+  left: 80px;
+  top: 200px;
+
+  background: linear-gradient(
+    90deg,
+    #142343 34.94%,
+    rgba(20, 35, 67, 0) 108.43%
+  );
+  border-radius: 3px;
+}
+
+.BigTittle {
+  /* Need Help? */
+
+  position: absolute;
+  width: 546px;
+  height: 80px;
+  left: 140px;
+  top: 305px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 79px;
+  /* identical to box height, or 132% */
+  display: flex;
+  align-items: center;
+
+  /* AM White */
+  color: #ffffff;
+}
+
+.textPortada {
+  /* Nevo portal para la consulta de información de clientes B2B, acceso a toda la información que necesitas. */
+
+  position: absolute;
+  width: 528px;
+  height: 56px;
+  left: 140px;
+  top: 390px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  /* AM White */
+  color: #ffffff;
+}
+
+.imagen2 {
+  /* Picture-27 6 */
+
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  left: 465px;
+  top: 741px;
+
+  background: url(1600034733_412217_1600034977_noticia_normal_recorte1.jpg);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.imagen3 {
+  /* Picture-27 7 */
+
+  position: absolute;
+  width: 350px;
+  height: 198px;
+  left: 849px;
+  top: 743px;
+
+  background: url(1.jpg);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.linkallnews {
+  /* Ver todas las noticias */
+
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  left: 1067px;
+  top: 685px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.RectanguloBluePortada {
+  /* iStock_000051911030_Large (1) 1 */
+
+  position: absolute;
+  width: 1280px;
+  height: 419px;
+  left: 0px;
+  top: 117px;
+
+  /* AM Med Blue */
+
+  background: #004990;
+}
+
+.rectanguloimg2 {
+  /* Rectangle 4497 */
+
+  position: absolute;
+  width: 352px;
+  height: 427px;
+  left: 464px;
+  top: 740px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.rectanguloimg3 {
+  /* Rectangle 4504 */
+
+  position: absolute;
+  width: 352px;
+  height: 425px;
+  left: 848px;
+  top: 742px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.rectanguloimg4 {
+  /* Rectangle 4501 */
+
+  position: absolute;
+  width: 352px;
+  height: 427px;
+  left: 464px;
+  top: 1307px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.rectanguloimg5 {
+  /* Rectangle 4502 */
+
+  position: absolute;
+  width: 352px;
+  height: 427px;
+  left: 848px;
+  top: 1307px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.TitleGAM {
+  /* People & Culture */
+
+  position: absolute;
+  width: 257px;
+  height: 32px;
+  left: 464px;
+  top: 1245px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 32px;
+  /* identical to box height, or 100% */
+  display: flex;
+  align-items: center;
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.linkallnews2 {
+  /* Ver todas las noticias */
+
+  position: absolute;
+  width: 132px;
+  height: 30px;
+  left: 1069px;
+  top: 1244px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.imagen4 {
+  /* Picture-27 8 */
+
+  position: absolute;
+  width: 350px;
+  height: 198px;
+  left: 465px;
+  top: 1308px;
+
+  background: url(N63A3433-32.jpg);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.imagen5 {
+  /* Picture-27 9 */
+
+  position: absolute;
+  width: 350px;
+  height: 198px;
+  left: 849px;
+  top: 1308px;
+
+  background: url(iStock_000017621154_Large.jpg);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.reccovid1 {
+  /* Rectangle 4531 */
+
+  position: absolute;
+  width: 353px;
+  height: 134px;
+  left: 80px;
+  top: 1952px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.reccovid2 {
+  /* Rectangle 4531 */
+
+  position: absolute;
+  width: 353px;
+  height: 134px;
+  left: 464px;
+  top: 1952px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.reccovid3 {
+  /* Rectangle 4531 */
+
+  position: absolute;
+  width: 353px;
+  height: 134px;
+  left: 849px;
+  top: 1952px;
+
+  /* AM White */
+  background: #ffffff;
+  /* AM Lighter Gray */
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.LinkAllPolitics {
+  /* Ver todas las politicas */
+
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 1065px;
+  top: 1882px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.cambiosvol1 {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 197px;
+  height: 49px;
+  left: 177px;
+  top: 1978px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+
+  color: #142343;
+}
+
+.cambiosvol2 {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 197px;
+  height: 49px;
+  left: 561px;
+  top: 1978px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+
+  color: #142343;
+}
+
+.cambiosvol3 {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 197px;
+  height: 49px;
+  left: 946px;
+  top: 1978px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+  display: flex;
+  align-items: center;
+
+  color: #142343;
+}
+
+.down1 {
+  /* Descargar */
+
+  position: absolute;
+  width: 66px;
+  height: 30px;
+  left: 177px;
+  top: 2029px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.down2 {
+  /* Descargar */
+
+  position: absolute;
+  width: 66px;
+  height: 30px;
+  left: 561px;
+  top: 2029px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.down3 {
+  /* Descargar */
+
+  position: absolute;
+  width: 66px;
+  height: 30px;
+  left: 946px;
+  top: 2029px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  /* identical to box height, or 214% */
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.Titletravwel1 {
+  /* Travel well */
+
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 490px;
+  top: 959px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+
+  /* AM Teal */
+  color: #1b8198;
+}
+
+.text1rec {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 300px;
+  height: 60px;
+  left: 489px;
+  top: 987px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.text1recm {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 281px;
+  height: 41px;
+  left: 490px;
+  top: 1062px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.linkrec1 {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 58px;
+  height: 20px;
+  left: 490px;
+  top: 1122px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.omxla24 {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 113px;
+  height: 20px;
+  left: 675px;
+  top: 1123px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  text-align: right;
+
+  /* AM Dark Gray */
+  color: #666666;
+}
+
+.TitleProdServs {
+  /* Products & Services */
+
+  position: absolute;
+  width: 131px;
+  height: 24px;
+  left: 874px;
+  top: 959px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+
+  /* AM Teal */
+  color: #1b8198;
+}
+
+.text2rec {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 293px;
+  height: 64px;
+  left: 874px;
+  top: 986px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.text2recm {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 875px;
+  top: 1062px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.linkrec2 {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 58px;
+  height: 20px;
+  left: 875px;
+  top: 1122px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.omxla82 {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 144px;
+  height: 20px;
+  left: 1029px;
+  top: 1123px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* AM Dark Gray */
+  color: #666666;
+}
+
+.Titletravwel2 {
+  /* Travel well */
+
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 490px;
+  top: 1525px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+
+  /* AM Teal */
+  color: #1b8198;
+}
+
+.text3rec {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 293px;
+  height: 64px;
+  left: 490px;
+  top: 1552px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.text3recm {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 491px;
+  top: 1626px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.linkvideo1 {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 58px;
+  height: 20px;
+  left: 490px;
+  top: 1690px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+.travwel3 {
+  /* Travel well */
+
+  position: absolute;
+  width: 68px;
+  height: 24px;
+  left: 875px;
+  top: 1524px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  display: flex;
+  align-items: center;
+
+  /* AM Teal */
+  color: #1b8198;
+}
+.text4rec {
+  /* Nueva ruta de temporada:  Monterrey - Orlando */
+
+  position: absolute;
+  width: 293px;
+  height: 64px;
+  left: 873px;
+  top: 1551px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.text4recm {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 296px;
+  height: 40px;
+  left: 874px;
+  top: 1626px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  /* AM Brand Blue */
+  color: #0b2343;
+}
+
+.linkrec3 {
+  /* Junto con su socio Delta Air Lines  anunciamos nuestra ruta de  */
+
+  position: absolute;
+  width: 58px;
+  height: 20px;
+  left: 874px;
+  top: 1690px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-decoration-line: underline;
+
+  /* AM Light Blue */
+  color: #007cc2;
+}
+
+.footer {
+  /* 1280x632_Footer_Menu_logeado */
+
+  position: absolute;
+  width: 1280px;
+  height: 385px;
+  left: 0px;
+  top: 2152px;
+
+  /* AM Brand Blue */
+
+  background: #0b2343;
+}
+
+.TextBigFooter {
+  /* Llámanos (55) 5133 4000 o escríbenos por WhatsApp */
+
+  position: absolute;
+  width: 293px;
+  height: 80px;
+  left: 76px;
+  top: 35px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  /* or 108% */
+  letter-spacing: -0.48px;
+
+  color: #ffffff;
+}
+.Text2Footer {
+  /* Costo de llamada local Ver números de contacto para otros países */
+
+  position: absolute;
+  width: 339px;
+  height: 20px;
+  left: 76px;
+  top: 97px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 17px;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.textvuelo {
+  /* ¿Tienes un vuelo? */
+
+  position: absolute;
+  width: 202px;
+  height: 28px;
+  left: 466px;
+  top: 34px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  color: #ffffff;
+}
+
+.textContact {
+  /* Contacto Aerobot */
+
+  position: absolute;
+  width: 98px;
+  height: 18px;
+  left: 80px;
+  top: 241px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+
+.textSiguenos {
+  /* Siguenos en */
+
+  position: absolute;
+  width: 69px;
+  height: 18px;
+  left: 215px;
+  top: 241px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+
+.textFactura {
+  /* Facturación */
+
+  position: absolute;
+  width: 86px;
+  height: 20px;
+  left: 507px;
+  top: 85px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+
+.textReglasEquipaje {
+  /* Reglas de equipaje */
+
+  position: absolute;
+  width: 136px;
+  height: 20px;
+  left: 506px;
+  top: 130px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  /* AM White */
+  color: #ffffff;
+}
+
+.textInfPasajeros {
+  /* Información de pasajeros */
+
+  position: absolute;
+  width: 182px;
+  height: 20px;
+  left: 506px;
+  top: 175px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+
+.textServEspeciales {
+  /* Servicios especiales */
+
+  position: absolute;
+  width: 146px;
+  height: 20px;
+  left: 506px;
+  top: 220px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+
+.textReembolsos {
+  /* Reembolsos */
+
+  position: absolute;
+  width: 90px;
+  height: 20px;
+  left: 506px;
+  top: 265px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  color: #ffffff;
+}
+
+.textSobreAeromexico {
+  /* Sobre Aeroméxico */
+
+  position: absolute;
+  width: 102px;
+  height: 18px;
+  left: 752px;
+  top: 35px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+
+.textInversionistas {
+  /* Inversionistas */
+
+  position: absolute;
+  width: 75px;
+  height: 28px;
+  left: 752px;
+  top: 60px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textAlianzaCom {
+  /* Alianzas comerciales */
+
+  position: absolute;
+  width: 114px;
+  height: 28px;
+  left: 752px;
+  top: 88px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textCompliance {
+  /* Compliance */
+
+  position: absolute;
+  width: 65px;
+  height: 28px;
+  left: 752px;
+  top: 116px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textCarrerasAero {
+  /* Carreras Aeronáuticas */
+
+  position: absolute;
+  width: 120px;
+  height: 28px;
+  left: 752px;
+  top: 144px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textBolsaTrabajo {
+  /* Bolsa de trabajo */
+
+  position: absolute;
+  width: 87px;
+  height: 28px;
+  left: 752px;
+  top: 172px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textDetuInteres {
+  /* De tu interés */
+
+  position: absolute;
+  width: 71px;
+  height: 18px;
+  left: 927px;
+  top: 35px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+
+.textUltiNoticias {
+  /* Últimas noticias */
+
+  position: absolute;
+  width: 86px;
+  height: 28px;
+  left: 927px;
+  top: 60px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textVuelaConNosotros {
+  /* Vuela con nosotros */
+
+  position: absolute;
+  width: 103px;
+  height: 28px;
+  left: 927px;
+  top: 88px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textNuetraFlota {
+  /* Nuestra flota */
+
+  position: absolute;
+  width: 70px;
+  height: 28px;
+  left: 927px;
+  top: 116px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textTiendasViaje {
+  /* Tiendas de viaje */
+
+  position: absolute;
+  width: 87px;
+  height: 28px;
+  left: 927px;
+  top: 144px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textViajesGrupo {
+  /* Viajes en grupo */
+
+  position: absolute;
+  width: 84px;
+  height: 28px;
+  left: 927px;
+  top: 172px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textContacto {
+  /* Contacto */
+
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 1075px;
+  top: 35px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+
+.textServicioCliente {
+  /* Servicio al cliente */
+
+  position: absolute;
+  width: 94px;
+  height: 28px;
+  left: 1075px;
+  top: 60px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textDenunciasCorp {
+  /* Denuncias corporativas */
+
+  position: absolute;
+  width: 127px;
+  height: 28px;
+  left: 1075px;
+  top: 88px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textGranPlan {
+  /* Gran Plan */
+
+  position: absolute;
+  width: 53px;
+  height: 28px;
+  left: 1075px;
+  top: 116px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textClubPremier {
+  /* Club Premier */
+
+  position: absolute;
+  width: 71px;
+  height: 28px;
+  left: 1075px;
+  top: 144px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textAerobot {
+  /* Aerobot */
+
+  position: absolute;
+  width: 44px;
+  height: 28px;
+  left: 1075px;
+  top: 172px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.iconWhatsBig {
+  /* WA Logo 2 */
+
+  position: absolute;
+  left: 27.61%;
+  right: 69.06%;
+  top: 16.92%;
+  bottom: 77.66%;
+}
+.iconWhats {
+  position: absolute;
+  left: 6.33%;
+  right: 92.68%;
+  top: 70.39%;
+  bottom: 26.21%;
+}
+
+.iconFbMessenger {
+  position: absolute;
+  width: 13.01px;
+  height: 13.12px;
+  left: 113px;
+  top: 271px;
+}
+
+.iconFB {
+  position: absolute;
+  width: 6.68px;
+  height: 11.69px;
+  left: 216px;
+  top: 271.86px;
+}
+
+.iconTwitter {
+  position: absolute;
+  width: 11.69px;
+  height: 10.02px;
+  left: 245.64px;
+  top: 272.69px;
+}
+
+.iconInstagram {
+  position: absolute;
+  left: 21.92%;
+  right: 77.1%;
+  top: 70.61%;
+  bottom: 26.13%;
+}
+
+.iconLinkedIn {
+  position: absolute;
+  width: 11.69px;
+  height: 11.69px;
+  left: 316.64px;
+  top: 271.86px;
+}
+
+.iconYoutube {
+  position: absolute;
+  width: 13.36px;
+  height: 10.02px;
+  left: 351.64px;
+  top: 271.86px;
+}
+
+.copyright {
+  /* © 2019 Aeroméxico. Todos los derechos reservados l Legal l Aviso de privacidad l Sitio accesible */
+
+  position: absolute;
+  width: 549px;
+  height: 16px;
+  left: 79px;
+  top: 341px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.PCI {
+  /* PCI 1 */
+
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 1166px;
+  top: 338px;
+
+  background: url(PCI.png);
+}
+
+.textCertificadopor {
+  /* Certificados por */
+
+  position: absolute;
+  width: 83px;
+  height: 16px;
+  left: 1075px;
+  top: 344px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+  text-align: right;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.LineHorizontalFooter {
+  /* Line 3 */
+
+  position: absolute;
+  width: 1361px;
+  height: 0px;
+  left: 1320px;
+  top: 314px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(180deg);
+}
+
+.iconFac {
+  position: absolute;
+  width: 13.33px;
+  height: 18.27px;
+  left: 468px;
+  top: 88px;
+}
+
+.iconReglasEquipaje {
+  position: absolute;
+  left: 36.33%;
+  right: 62.14%;
+  top: 33.77%;
+  bottom: 61.32%;
+}
+
+.iconInfPasajeros {
+  position: absolute;
+  width: 18.92px;
+  height: 18.93px;
+  left: 465px;
+  top: 175px;
+}
+
+.iconSerEspeciales {
+  position: absolute;
+  width: 15.38px;
+  height: 20.93px;
+  left: 467px;
+  top: 218px;
+}
+
+.iconReembolsos {
+  position: absolute;
+  left: 36.41%;
+  right: 62.17%;
+  top: 68.57%;
+  bottom: 26.65%;
+}
+
+.buttonChat {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  left: 90px;
+  top: 132px;
+
+  background: #004990;
+  border-radius: 25px;
+
+  font-family: Neue Haas Unica Pro;
+
+  color: #ffffff;
+}
+
+.iconChat {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 106px;
+  top: 151px;
+}
+
+.rectanguloIzquierdo {
+  /* Rectangle 4503 */
+
+  position: absolute;
+  width: 434px;
+  height: 1333px;
+  left: -2px;
+  top: 439px;
+
+  /* AM Plus Med Blue Opacity */
+
+  background: rgba(0, 73, 144, 0.07);
+  opacity: 0.5;
+  /* AM Ultra Light Gray */
+
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.lineaFooter {
+  /* Line 3 */
+
+  position: absolute;
+  width: 1361px;
+  height: 0px;
+  left: 1320px;
+  top: 314px;
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(180deg);
+}
+
+.Textaceptamos {
+  position: absolute;
+  width: 395px;
+  height: 16px;
+  left: 752px;
+  top: 227px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+
+.textTarjetasCredito {
+  /* Tarjetas de crédito y débito */
+
+  position: absolute;
+  width: 123px;
+  height: 16px;
+  left: 753px;
+  top: 253px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.TextPagoElectronico {
+  /* Pago electrónico */
+
+  position: absolute;
+  width: 78px;
+  height: 16px;
+  left: 951px;
+  top: 253px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.iconVisa {
+  position: absolute;
+  width: 35.25px;
+  height: 12.04px;
+  left: 753px;
+  top: 275px;
+}
+
+.iconMaster {
+  position: absolute;
+  width: 21.95px;
+  height: 14.52px;
+  left: 808px;
+  top: 273.68px;
+}
+
+.iconblue {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 849px;
+  top: 275px;
+}
+
+.iconRed {
+  position: absolute;
+  width: 15.76px;
+  height: 8.8px;
+  left: 882.61px;
+  top: 276.62px;
+}
+
+.iconVisa2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 943px;
+  top: 261px;
+}
+
+.iconPaypal {
+  position: absolute;
+  width: 15px;
+  height: 20px;
+  left: 993px;
+  top: 267px;
+}
+
+.iconMaster2 {
+  position: absolute;
+  width: 16px;
+  height: 13px;
+  left: 1026px;
+  top: 274px;
+}
+
+/*Css Otros Footer*/
+
+.textOtros {
+  /* Otros */
+
+  position: absolute;
+  width: 78px;
+  height: 16px;
+  left: 1084px;
+  top: 253px;
+
+  font-family: Neue Haas Unica Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.iconUATP {
+  position: absolute;
+  left: 84.77%;
+  right: 12.03%;
+  top: 71.75%;
+  bottom: 25.39%;
+}
+
+.iconBilletes {
+  position: absolute;
+  width: 16.09px;
+  height: 12.33px;
+  left: 1146.75px;
+  top: 275px;
+}
+
+.iconAvion {
+  position: absolute;
+  left: 92.11%;
+  right: 6.62%;
+  top: 71.17%;
+  bottom: 25.51%;
+}
