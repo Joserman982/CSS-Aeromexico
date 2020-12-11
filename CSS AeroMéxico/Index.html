@@ -6,21 +6,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aeromexico</title>
   <link rel="Stylesheet" href="style.css" />
+  <link rel="Stylesheet" href="modal.css" />
+  <link rel="Stylesheet" href="modallenguaje.css" />
+  <script>
+    function porencima(x) {
+      x.style.color = "rgb(233, 27, 47)";
+     }
+     function alquitar(x) {
+     x.style.color = "rgb(0, 124, 194)";
+     }
+  </script>
 </head>
 
 <body>
+  <div id="openModal" class="modalDialog">
+    <div> 
+      <a href="#close" title="Close" class="close">X</a>
+    </div>
+    <a class="ultimasnoticiasmodal">Últimas noticias</a>
+    <a class="textCovModal">COVID-19 Recomendaciones</a>
+    <img class="imgModal1" src="Images/Picture-27 1.png">
+    <img class="imgModal2" src="Images/Picture-27 2.png">
+    <a class="text1Mod">Las restricciones de entrada para viajes no esenciales a los Estados Unidos. Leer más</a>
+    <a class="textBigModal">Nueva ruta de temporada BCN</a>
+    <a class="text2Mod">Las restricciones de entrada para viajes no esenciales a los Estados Unidos. Leer más</a>
+    <svg class="recmodal"></svg>
+    <a class="textm" href="" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver las noticias anteriores</a>  
+  </div>
 
+
+
+  <div id="openModal2" class="modalDialog2">
+    <div> 
+      <a href="#close" title="Close" class="close2">X</a>
+      <a class="texidioma">IDIOMA</a>
+      <img class="flagMex" src="Images/MEX.svg">
+      <a class="espModal">México 
+        Español</a> 
+      <img class="flagUsa" src="Images/USA.svg"> 
+      <a class="engModal">United States 
+        English</a>   
+      <img src="Images/Checked.svg" class="iconCheck">  
+    </div>
+  </div>
+  
   <header class="tabheader">
     <img class="logo" src="Images/Logo.svg">
-    <img class="iconnotification" src="Images/Union.svg">
+    <img class="iconnotification" src="Images/Union.svg" onclick="window.location.href='#openModal'">
+    <a class="textleng1"></a>
     <img class="iconBandera" src="Images/MEX.svg">
-
-
-
-<select name="paises" id="paises" class="listLenguage">
-  <option value="Español">Español</option>
-  <option value="English">English</option>
-</select>
 
 
     
@@ -28,6 +62,7 @@
 
     <div>
       <img class="iconSearch" src="Images/search.svg">
+      <a class="textleng1" onclick="window.location.href='#openModal2'">Español</a>
       <a class="textSearchButton">Busca un Articulo</a>
       <input type="search" class="ButtonSearch">
     </div>
@@ -61,19 +96,19 @@
     <a class="texttyphoon">Typhoon Haishen - Bulletin 1</a>
     <img src="Images/!2.svg" class="iconRed3">
     <a class="textCoronavirus">Coronavirus Situation - All...</a>
-    <a href="" class="textvermasRec">Ver más</a>
-    <a href="" class="textvermasRec2">Ver más</a>
-    <a href="" class="textAllViewExceptionPolicies">View all exception policies</a>
+    <a href="" class="textvermasRec" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver más</a>
+    <a href="" class="textvermasRec2" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver más</a>
+    <a href="" class="textAllViewExceptionPolicies" onmouseover="porencima(this)" onmouseout="alquitar(this)">View all exception policies</a>
 
     <a class="textLomasBuscado">LO MÁS BUSCADO</a>
     <img src="Images/Corazon.svg" class="iconCorazon">
     <a class="textMedidadCovid">Medidas COVID-19</a>
     <a class="textMedidasCovidExtend">Learn more how the Delta CareStandard focuses on creating a safer and cleaner experience at every point during.</a>
-    <a class="textVerPreguntasFrecuentes">Ver preguntas frecuentes</a>
+    <a href="" class="textVerPreguntasFrecuentes" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver preguntas frecuentes</a>
     <img src="Images/Maleta.svg" class="iconMaleta">
     <a class="textAboutAeromexico">About Aeromexico</a>
     <a class="textAboutAeromexicoExtence">Learn more how the Delta CareStandard focuses on creating a safer and cleaner experience at every point during.</a>
-    <a class="textVerPreguntasFrecuentesAeromexico">Ver preguntas frecuentes</a>
+    <a href="" class="textVerPreguntasFrecuentesAeromexico" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver preguntas frecuentes</a>
 
 
     <svg class="RectanguloBluePortada"></svg>
@@ -92,19 +127,19 @@
     <a class="Titletravwel1">Travel well</a>
     <a class="text1rec">Huracán “Laura” Rutas afectadas: Houston...</a>
     <a class="text1recm">Fecha de emisión del boleto: 26 agosto 2020 Viaje afectado: del 26 al 17 agosto 2020</a>
-    <a class="linkrec1">Leer más</a>
+    <a href="" class="linkrec1" onmouseover="porencima(this)" onmouseout="alquitar(this)">Leer más</a>
     <a class="omxla24">Código IT: OMXLA24</a>
   </svg>
 
-  <a href="" class="linkallnews">Ver todas las noticias</a>
-  <a href="" class="linkallnews2">Ver todas las noticias</a>
+  <a href="" class="linkallnews" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver todas las noticias</a>
+  <a href="" class="linkallnews2" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver todas las noticias</a>
 
   <svg class="rectanguloimg3">
     <img src="Images/Picture-277.png" class="imagen3">
     <a class="TitleProdServs">Products & Services</a>
     <a class="text2rec">Aeroméxico debutará con una nueva experiencia en..</a>
     <a class="text2recm">Learn more about the clean and consistent experience that travelers can ...</a>
-    <a class="linkrec2">Leer más</a>
+    <a href="" class="linkrec2" onmouseover="porencima(this)" onmouseout="alquitar(this)">Leer más</a>
     <a class="omxla82">Código IT: OMXLA 82109C</a>
   </svg>
 
@@ -114,7 +149,7 @@
     <a class="Titletravwel2">Travel well</a>
     <a class="text3rec">Introducción a un nuevo estandar de atención</a>
     <a class="text3recm">Learn more about the clean and consistent experience that travelers can ...</a>
-    <a class="linkvideo1">Ver video</a>
+    <a href="" class="linkvideo1" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver video</a>
   </svg>
 
   <svg class="rectanguloimg5">
@@ -122,31 +157,31 @@
     <a class="travwel3">Travel well</a>
     <a class="text4rec">Introducing a new Standard of Care</a>
     <a class="text4recm">Learn more about the clean and consistent experience that travelers can ...</a>
-    <a class="linkrec3">Leer más</a>
+    <a href="" class="linkrec3" onmouseover="porencima(this)" onmouseout="alquitar(this)">Leer más</a>
   </svg>
   <a class="bibliotecapoliticas">Biblioteca de Políticas</a>
-  <a href="" class="LinkAllPolitics">Ver todas las politicas</a>
+  <a href="" class="LinkAllPolitics" onmouseover="porencima(this)" onmouseout="alquitar(this)">Ver todas las politicas</a>
 
 
   <div class="reccovid1">
   <img src="Images/IconPDF.svg" class="iconPDF1">
 </div>
   <a class="cambiosvol1">Cambios voluntarios e involuntarios COVID-19</a>
-  <a href="" class="down1">Descargar</a>
+  <a href="" class="down1" onmouseover="porencima(this)" onmouseout="alquitar(this)">Descargar</a>
 
 
   <div class="reccovid2">
     <img src="Images/IconPDF.svg" class="iconPDF2">
   </div>
   <a class="cambiosvol2">Cambios voluntarios e involuntarios COVID-19</a>
-  <a href="" class="down2">Descargar</a>
+  <a href="" class="down2" onmouseover="porencima(this)" onmouseout="alquitar(this)">Descargar</a>
 
 
   <div class="reccovid3">
     <img src="Images/IconPDF.svg" class="iconPDF3">
   </div>
   <a class="cambiosvol3">Cambios voluntarios e involuntarios COVID-19</a>
-  <a href="" class="down3">Descargar</a>
+  <a href="" class="down3" onmouseover="porencima(this)" onmouseout="alquitar(this)">Descargar</a>
 
 </body>
 
@@ -232,3 +267,7 @@
 </footer>
 
 </html>
+
+
+
+

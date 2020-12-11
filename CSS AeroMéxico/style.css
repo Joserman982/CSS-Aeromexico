@@ -3,12 +3,23 @@
   src: url(Fuentes/NeueHaasUnicaPro.ttf);
 }
 
+.mexespa{
+
+}
+
 .iconnotification {
+
+  background-image:url(Images/Union.svg);
+  background-color: transparent;
+  border: none;
+  
   position: absolute;
   left: 77.42%;
   right: 21.33%;
   top: 37.1%;
   bottom: 37.1%;
+  width:15px;
+  height:17px;
 }
 
 .iconBandera {
@@ -19,17 +30,20 @@
   top: 17px;
 }
 
-.listLenguage {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
 
+.Dropdown-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: rgba(0,0,0,.001);
+  height: 55px;
+  left: 0;
   position: absolute;
-  left: 83.4%;
-  right: 11.37%;
-  top: 11.29%;
-  bottom: 11.29%;
+  top: 0;
+  width: calc(100% + 30px);
+  z-index: 0;
 }
 
 .tabheader {
@@ -702,6 +716,8 @@
   color: #ffffff;
 }
 
+
+
 /* LoginButton */
 .Login {
   /* LoginButton */
@@ -777,9 +793,10 @@
   left: 80px;
   top: 200px;
 
-  background: url(aeromexico cama 4.jpg);
-  border-radius: 3px;
+ 
+  border-radius : 3px;
 }
+
 .titleblueportada {
   /* Need Help? */
 
@@ -1038,6 +1055,7 @@
 
   /* AM Light Blue */
   color: #007cc2;
+
 }
 
 .imagen4 {
