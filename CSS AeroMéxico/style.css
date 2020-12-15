@@ -3,23 +3,14 @@
   src: url(Fuentes/NeueHaasUnicaPro.ttf);
 }
 
-.mexespa{
-
-}
-
 .iconnotification {
 
-  background-image:url(Images/Union.svg);
   background-color: transparent;
   border: none;
   
   position: absolute;
-  left: 77.42%;
-  right: 21.33%;
-  top: 37.1%;
-  bottom: 37.1%;
-  width:15px;
-  height:17px;
+  left: 984px;
+  top: 22px;
 }
 
 .iconBandera {
@@ -49,10 +40,10 @@
 .tabheader {
   /* Frame 710 */
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 62px;
   left: 0px;
-  top: 55px;
+  Top:0px;
   /* AM Brand Blue */
   background: #0b2343;
 }
@@ -86,9 +77,10 @@
   width: 258px;
   height: 60px;
   left: 140px;
-  top: 472px;
+  top: 417px;
   background: #007cc2;
   border-radius: 35px;
+  border: none;
 
   color: #ffffff;
 }
@@ -675,10 +667,11 @@
 
 .iconSearch {
   position: absolute;
-  left: 55.7%;
-  right: 43.37%;
-  top: 40.32%;
-  bottom: 40.62%;
+  width: 138px;
+  height: 12px;
+  left: 652px;
+  top: 24px;
+  
 }
 /* SearchButton */
 .ButtonSearch {
@@ -715,30 +708,28 @@
 
   color: #ffffff;
 }
-
-
-
-/* LoginButton */
 .Login {
-  /* LoginButton */
+/* LoginButton */
 
-  /* Auto Layout */
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 15px;
 
-  position: absolute;
-  width: 104px;
-  height: 30px;
-  left: 1155px;
-  top: 15px;
+/* Auto Layout */
 
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  box-sizing: border-box;
-  border-radius: 29px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 15px;
+
+position: absolute;
+width: 104px;
+height: 30px;
+left: 1221px;
+top: 15px;
+
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.4);
+box-sizing: border-box;
+border-radius: 29px;
+color: #FFFFFF;
 }
 .featurednews {
   /* Featured News */
@@ -791,9 +782,7 @@
   width: 1122px;
   height: 415px;
   left: 80px;
-  top: 200px;
-
- 
+  top: 145px;
   border-radius : 3px;
 }
 
@@ -804,7 +793,7 @@
   width: 218px;
   height: 20px;
   left: 140px;
-  top: 283px;
+  top: 228px;
 
   font-family: Neue Haas Unica Pro;
   font-style: normal;
@@ -827,7 +816,7 @@
   width: 1015px;
   height: 415px;
   left: 80px;
-  top: 200px;
+  top: 145px;
 
   background: linear-gradient(
     90deg,
@@ -844,7 +833,7 @@
   width: 546px;
   height: 80px;
   left: 140px;
-  top: 305px;
+  top: 250px;
 
   font-family: Neue Haas Unica Pro;
   font-style: normal;
@@ -866,7 +855,7 @@
   width: 528px;
   height: 56px;
   left: 140px;
-  top: 390px;
+  top: 335px;
 
   font-family: Neue Haas Unica Pro;
   font-style: normal;
@@ -933,10 +922,10 @@
   /* iStock_000051911030_Large (1) 1 */
 
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 419px;
   left: 0px;
-  top: 117px;
+  top: 62px;
 
   /* AM Med Blue */
 
@@ -1666,7 +1655,7 @@
   /* 1280x632_Footer_Menu_logeado */
 
   position: absolute;
-  width: 1280px;
+  width: 100%;
   height: 385px;
   left: 0px;
   top: 2152px;
@@ -2351,10 +2340,8 @@
 
 .iconReglasEquipaje {
   position: absolute;
-  left: 36.33%;
-  right: 62.14%;
-  top: 33.77%;
-  bottom: 61.32%;
+  left: 465px;
+  top: 134.73px;
 }
 
 .iconInfPasajeros {
@@ -2367,18 +2354,14 @@
 
 .iconSerEspeciales {
   position: absolute;
-  width: 15.38px;
-  height: 20.93px;
   left: 467px;
   top: 218px;
 }
 
 .iconReembolsos {
   position: absolute;
-  left: 36.41%;
-  right: 62.17%;
-  top: 68.57%;
-  bottom: 26.65%;
+  left: 467px;
+  top: 265px;
 }
 
 .buttonChat {
@@ -2387,7 +2370,7 @@
   height: 50px;
   left: 90px;
   top: 132px;
-
+  border:none;
   background: #004990;
   border-radius: 25px;
 
@@ -2577,10 +2560,8 @@
 
 .iconUATP {
   position: absolute;
-  left: 84.77%;
-  right: 12.03%;
-  top: 71.75%;
-  bottom: 25.39%;
+  left: 1085px;
+  top: 275px;
 }
 
 .iconBilletes {
@@ -2593,8 +2574,6 @@
 
 .iconAvion {
   position: absolute;
-  left: 92.11%;
-  right: 6.62%;
-  top: 71.17%;
-  bottom: 25.51%;
+  left: 1179px;
+  top: 274px;
 }

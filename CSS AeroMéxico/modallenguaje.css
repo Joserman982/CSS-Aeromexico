@@ -22,7 +22,7 @@
     width: 224px;
     height: 195px;
     left: 972px;
-    top: 103px;
+    top: 48px;
     
     border-radius: 3px;
   
@@ -53,12 +53,6 @@
 
 .textleng1{
 /* Language */
-position: static;
-left: 0%;
-right: 31.34%;
-top: 0%;
-bottom: 0%;
-
 font-family: Neue Haas Unica Pro;
 font-style: normal;
 font-weight: normal;
