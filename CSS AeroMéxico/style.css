@@ -81,7 +81,7 @@
   background: #007cc2;
   border-radius: 35px;
   border: none;
-
+  outline: none;
   color: #ffffff;
 }
 .textBlueRecIzquierdo {
@@ -680,7 +680,7 @@
   height: 35px;
   left: 700px;
   top: 13px;
-
+  outline: none;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
@@ -729,6 +729,7 @@ background: rgba(255, 255, 255, 0.1);
 border: 1px solid rgba(255, 255, 255, 0.4);
 box-sizing: border-box;
 border-radius: 29px;
+outline: none;
 color: #FFFFFF;
 }
 .featurednews {
@@ -2201,65 +2202,53 @@ color: #FFFFFF;
   /* WA Logo 2 */
 
   position: absolute;
-  left: 27.61%;
   right: 69.06%;
-  top: 16.92%;
+  left: 379px;
+  top: 69px;
   bottom: 77.66%;
 }
+
 .iconWhats {
   position: absolute;
-  left: 6.33%;
-  right: 92.68%;
-  top: 70.39%;
-  bottom: 26.21%;
+  left: 85px;
+  top: 271px;
+ 
 }
 
 .iconFbMessenger {
   position: absolute;
-  width: 13.01px;
-  height: 13.12px;
-  left: 113px;
+  left: 115px;
   top: 271px;
 }
 
 .iconFB {
   position: absolute;
-  width: 6.68px;
-  height: 11.69px;
-  left: 216px;
-  top: 271.86px;
+  left: 215px;
+  top: 271px;
 }
 
 .iconTwitter {
   position: absolute;
-  width: 11.69px;
-  height: 10.02px;
-  left: 245.64px;
-  top: 272.69px;
+  left: 245px;
+  top: 271px;
 }
 
 .iconInstagram {
   position: absolute;
-  left: 21.92%;
-  right: 77.1%;
-  top: 70.61%;
-  bottom: 26.13%;
+  left: 275.64px;
+  top: 271px;
 }
 
 .iconLinkedIn {
   position: absolute;
-  width: 11.69px;
-  height: 11.69px;
-  left: 316.64px;
-  top: 271.86px;
+  left: 305PX;
+  top: 271px;
 }
 
 .iconYoutube {
   position: absolute;
-  width: 13.36px;
-  height: 10.02px;
-  left: 351.64px;
-  top: 271.86px;
+  left: 335px;
+  top: 271px;
 }
 
 .copyright {
@@ -2373,7 +2362,7 @@ color: #FFFFFF;
   border:none;
   background: #004990;
   border-radius: 25px;
-
+  outline: none;
   font-family: Neue Haas Unica Pro;
 
   color: #ffffff;
